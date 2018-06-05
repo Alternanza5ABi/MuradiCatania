@@ -33,7 +33,8 @@ public class MyDB
         DBHelper = new DatabaseHelper(context);
     }
 
-    private static class DatabaseHelper extends SQLiteOpenHelper {
+    private static class DatabaseHelper extends SQLiteOpenHelper
+    {
         DatabaseHelper(Context context) {
             super(context, DATABASE_NOME, null, DATABASE_VERSIONE);
         }
