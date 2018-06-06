@@ -1,11 +1,14 @@
 <resources>
-    <string name="app_name">Mura di Catania</string>
+    <string name="app_name" translatable="false">Mura di Catania</string>
+
+    <string name="home_map"> Map </string>
+    <string name="home_monuments"> Monuments </string>
+    <string name="cw_read_more"> Read more </string>
+    <string name="go_monument"> Go to the monument</string>
+    <string name="cw_hide_read_more"> Hide </string>
 
 
-
-
-
-    <string-array name="nome">
+    <string-array name="name">
         <item>Bastione San Giorgio</item>
         <item>Bastione San Michele</item>
         <item>Bastione degli infetti</item>
@@ -39,7 +42,7 @@
 
 
 
-    <string-array name="descrizione">
+    <string-array name="descriptions">
         <item>
                Uno dei più piccoli baluardi cinquecenteschi di Catania, il Bastione venne dedicato
                al protettore del castellano, San Giorgio, cui pure esisteva una cappella all'interno
@@ -274,7 +277,7 @@
 
 
 
-    <string-array name="Longitudine">
+    <string-array name="Longitude" translatable="false" >
         <item>10.994578</item>
         <item>15.088668</item>
         <item>15.079648</item>
@@ -305,7 +308,7 @@
 
 
 
-    <string-array name="Latitudine">
+    <string-array name="Latitude" translatable="false">
         <item>45.448031</item>
         <item>37.506129</item>
         <item>37.507283</item>
