@@ -1,7 +1,337 @@
 <resources>
     <string name="app_name">Mura di Catania</string>
 
-    <string name="home_map"> Map </string>
-    <string name="home_monuments"> Monuments </string>
+
+
+
+
+    <string-array name="nome">
+        <item>Bastione San Giorgio</item>
+        <item>Bastione San Michele</item>
+        <item>Bastione degli infetti</item>
+        <item>Bastione San Giovanni</item>
+        <item>Bastione di Santa Croce</item>
+        <item>Bastione del tindaro</item>
+        <item>Bastione del Santo Carcere</item>
+        <item>Porta di Carlo V</item>
+        <item>Porta della Decima</item>
+        <item>Porta Saracena</item>
+        <item>Porta del Porto</item>
+        <item>Porta di Ferro</item>
+        <item>Porta del Re</item>
+        <item>Porta del Tindaro</item>
+        <item>Porta Sant’Orsola</item>
+        <item>Porta del Sale</item>
+        <item>Porta Della Consolazione</item>
+        <item>Porta di Sardo</item>
+        <item>Porta della Lanza</item>
+        <item>Postierle</item>
+        <item>Fontana dei sette Canali</item>
+        <item>Fonte Lanaria</item>
+        <item>Mura cinquecentesche del Palazzo Biscari</item>
+        <item>Palazzo Biscari</item>
+        <item>Castello Ursino</item>
+        <item>Cortina di Gammazita</item>
+    </string-array>
+
+
+
+
+
+
+    <string-array name="descrizione">
+        <item>
+               Uno dei più piccoli baluardi cinquecenteschi di Catania, il Bastione venne dedicato
+               al protettore del castellano, San Giorgio, cui pure esisteva una cappella all'interno
+               del Castello Ursino. Investito e semisommerso dalle lave del 1669, il Bastione venne
+               messo in luce durante alcuni scavi compiuti tra la fine del Settecento e l'inizio
+               dell'Ottocento, salvo poi essere dimenticato e sopraffatto dalle nuove fabbriche.
+               Oggi appare ancora in parte ricoperto dalle lave e preda di vandalismi di ogni sorta,
+               trovandosi in un quartiere a rischio sociale.
+        </item>
+
+        <item>
+               Iniziato nel 1555 e mai compiuto, il Bastione prendeva il nome dalla chiesa di
+               San Michele, trasferita poi su via Etnea nel Settecento. Dopo il sisma del 1693 venne
+               sfruttato per realizzarvi residenze e fu modificato al punto da renderlo irriconoscibile:
+               del muro a scarpa rinascimentale rimane infatti appena una piccolissima porzione su
+               via Coppola, dove rimane parte di un edificio settecentesco, dal cui civico 43 si può
+               accedere al cortiletto ricavato nella piazza d'arme. Il resto dell'edificio è un
+               elegante palazzotto nobiliare di primissimo Novecento, ormai privo di qualsiasi elemento
+               che ne rammenti l'originale funzione militare.
+        </item>
+
+        <item>
+               Il Bastione degli Infetti è quello meglio conservato tra i bastioni che costituivano
+               il sistema difensivo etneo. Cicerone racconta nelle Verrine che nel luogo dove oggi si
+               trovano i resti del bastione sorgeva il Tempio di Cerere, luogo di culto e di pellegrinaggi.
+               Il nome deriva dalla trasformazione del bastione in lazzaretto nel 1576, in seguito
+               alla peste che colpì la città di Catania.
+        </item>
+
+        <item>
+               Rimasto illeso dall’eruzione del 1669 fu in parte distrutto dal terremoto che si
+               verificò nello stesso anno. Ma furono l’incuria e il degrado dei secoli successivi ad
+               alterarne definitivamente la fisionomia.
+        </item>
+
+        <item>
+               Il Bastione Santa Croce costituiva la difesa esterna del castello Ursino ed era
+               ubicato ad oriente lungo la cortina di Gammazita e fu distrutto in parte dalla lava
+               del 1669 ; era armato con 2 pezzi di artiglieria.
+        </item>
+
+        <item>
+               Inizialmente fu parte del sistema difensivo della città nel ‘500. Poi divenne il
+               confine del giardino dei benedettini, che lo acquistarono per delimitare l’area verde
+               del loro monastero. Oggi del Bastione rimangono alcune strutture all’interno
+               dell’Ospedale Vittorio Emanuele e lungo il vicolo del Tindaro. Il nome del bastione
+               deriva dalla chiesa demolita dedicata alla Madonna del Tindaro; venne demolita per far
+               spazio alla costruzione dell’Ospedale Vittorio Emanuele e del Liceo Spedalieri.
+        </item>
+
+        <item>
+               Il Bastione del Santo Carcere sorse nel XVI secolo a protezione della Vetere,
+               la prima cattedrale della città, legata dalla tradizione ai luoghi del martirio
+               di S.Agata. Dopo il sisma del 1693 fu in parte demolito per ricavarne la facciata della
+               chiesa di S.Agata al Carcere. Oggi è una tappa obbligata per la Festa di S.Agata.
+               Erroneamente infatti si crede che la finestrella cinquecentesca della Guardia fosse
+               quella da cui si affacciava sospirante la santa durante la sua prigionia.
+        </item>
+
+        <item>
+               La Porta di Carlo V è  l’unica porta delle cinquecentesche mura di Carlo V e si
+               conserva intatta alla Pescheria.  Nota in passato come Porta delli Canali, prendeva il
+               nome dall’omonima fontana sulla quale si affacciava ed è l’unica porta superstite.
+               Su di essa una lapide marmorea incisa in caratteri e lingua latina che esprime il
+               desiderio di Carlo V di dotare di mura la città di Catania. La grande apertura è
+               realizzata con blocchi lavici ben squadrati.
+        </item>
+
+        <item>
+               la Porta della Decima era nota anche come Porta Siracusa e nasceva in sostituzione
+               dell'antica Porta Ariana. La sua esistenza è certa nel Medioevo, in quanto al di sotto
+               di tale ingresso vi passarono i catanesi ribelli al re Federico in umiliazione sotto
+               un arco di spade. Qui, avveniva il pagamento della decima, ossia un decimo del raccolto
+               che veniva versato come tributo al sovrano; da qui il nome della Porta.
+        </item>
+
+        <item>
+               Nota anche come Porta de Verga e riedificata nel 1553, sostituiva una porta più
+               antica - la Porta del Porto - e prendeva il nome dal viceré Juan de Vega cui fu
+               dedicata. Nel Settecento fu oggetto di discordia tra l'Arcidiocesi e la famiglia
+               Paternò Castello, entrambe le parti confinanti con la Porta e interessate al suo
+               controllo. Venne demolita nel corso del XIX secolo per l'ampliamento della viuzza che
+               da essa giungeva al porto, oggi via del Porticello.
+        </item>
+
+        <item>
+               Nasceva per garantire un accesso alla città dal piccolo Porto Aragonese. La sua
+               incerta ubicazione dovette essere non lontana dall'attuale piazza Duca di Genova.
+               Venne abbattuta insieme al tratto di mura su cui si affacciava per la realizzazione
+               della nuova cortina cinquecentesca che circondava il quartiere Civita.
+        </item>
+
+        <item>
+               Questa Porta deve il nome alla grata metallica che la chiudeva, secondo la
+               tradizione ottenuta col bottino di Tunisi a seguito della vittoria riportata nel 1535
+               da parte di Carlo V e della flotta di Andrea Doria sul pirata Barbarossa. Venne detta
+               anche Pontone, con chiaro riferimento nautico. Risale al 1555 e sorgeva dov'è oggi
+               l'omonima via, alla Civita.
+        </item>
+
+        <item>
+               Questa porta era detta anticamente Porta Aquilonare. Data la sua posizione sulle
+               mura di epoca aragonese, poté essere l'ingresso privilegiato alla città dei sovrani
+               del Regno di Trinacria, diretti devozionalmente all'antica chiesa di Sant'Agata la
+               Vetere, prima sede della cattedra vescovile e tradizionalmente sede del sepolcro della
+               patrona della città. La Porta si apriva dov'è oggi via Santa Maddalena, proprio di
+               fronte alla Chiesa di Santa Maria della Purità e della Visitazione.
+        </item>
+
+        <item>
+               Realizzata nel XIV secolo sul tratto di mura a nord-ovest, dove oggi è ubicato
+               l'Ospedale Vittorio Emanuele II, e andata distrutta dalla colata del 1669, il nome
+               appare legato alla denominazione del vicino bastione.
+        </item>
+
+        <item>
+               Porta di Sant'Orsola, chiamata in precedenza «posterna Joenio», fu aperta nel 1671.
+               La porta era ubicata vicino alla chiesa di Sant'Orsola, nell'area dell'attuale piazza
+               Scammacca 13, dietro il Teatro Massimo, e fu demolita dopo il terremoto del 1693 per
+               tracciare le nuove strade di Catania.
+        </item>
+
+        <item>
+               Eretta nel sistema difensivo del fossato del Castello Ursino nel corso del XVI secolo,
+               anch'essa venne demolita totalmente dall'eruzione secentesca. Non è chiara l'esatta
+               ubicazione, quasi certamente nella zona occidentale di piazza Federico II di Svevia.
+        </item>
+
+        <item>
+               Probabilmente medioevale, si apriva poco oltre il Bastione di San Giovanni.
+               La sua distruzione avvenne con l'eruzione del 1669 la cui colata entrò da questa porta
+               per fermarsi parecchi metri all'interno, presso la piazza Santi Cosma e Damiano, oggi
+               titolata piazza Niccolò Machiavelli.
+        </item>
+
+        <item>
+               Eretta sulla cortina muraria medievale a ovest, nel tratto di via Giuseppe Garibaldi
+               che s'appresta all'incrocio con la via del Plebiscito, venne ricavata col piano di
+               fortificazione cinquecentesco. Mai completata, venne abbattuta nel 1792 per ampliare
+               la stessa via Garibaldi. Deve il nome al feudo del Sardo, ricco terreno a occidente
+               della città.
+        </item>
+
+        <item>
+               Di porte con questo titolo ne esistettero due. La prima di età non definita dovette
+               essere forse di epoca aragonese, aprendosi sulle mura di tal periodo; la seconda la
+               sostituì nel XVI secolo, eretta non lungi e crollata a seguito del terremoto del 1693.
+               I pochi resti residui furono abbattuti per l'ampliamento della strada Lanza, cioè
+               l'attuale via Antonino di San Giuliano.
+        </item>
+
+        <item>
+               Le mura di città presentavano diverse aperture "di servizio", dette postierle,
+               solitamente non segnalate nelle planimetrie generali in quanto accessi secondari.
+               Tuttavia, grazie ad alcune stampe firmate da Tiburzio Spannocchi a cui fu affidata la
+               supervisione delle mura in vista di una loro riformulazione e rafforzamento, si è in
+               grado di identificare con certezza almeno due di esse. Una è la Porta della Cunzaria,
+               sita presso il Bastione Grande o di San Salvatore, conduceva ad una conceria di pelli
+               che nel XVI secolo era ubicata dove oggi sorge la Dogana Portuale e che nel Settecento
+               venne adattata a lazzaretto, su uno sperone lavico a picco sul mare.
+        </item>
+
+        <item>
+               Nota come fontana de’ setti canneddi, oggi si trova inserita sotto un grande arco,
+               nel fianco del Palazzo dei Chierici , ad un livello più basso del livello stradale di
+               Piazza Duomo in quanto fu costruita prima del terremoto. La fontana originaria dei 36
+               canali era collocata lungo le mura di fronte la Porta e presentava nella parte
+               sovrastante pitture che raffiguravano la storia del dio fluviale Amenano; essa venne
+               distrutta dall’eruzione del 1669.
+        </item>
+
+        <item>
+               Lungo il tratto di mura che va dalla Porta di Carlo verso la marina in via Dusmet.
+               Il nome deriva dalla sua collocazione, lungo la via Lanaria in onore al governatore
+               Francesco Lanario Duca di Carpignano. La dedica a S. Agata è legata invece alla
+               tradizione secondo la quale la fontana segna il punto da dove partirono le reliquie
+               della Santa per Bisanzio per ordine del Generale Giorgio Maniace. A febbraio, festa
+               della patrona S. Agata, il simulacro della santa percorre l’antico tratto delle mura;
+               la fontana, in occasione della ricorrenza, e’ meta di pellegrinaggi dei devoti.
+        </item>
+
+        <item>
+               Dopo il terremoto del 1693 il principe Ignazio Paterno’ Castello III, principe di Biscari,
+               ottenne dal Luogotenente Generale Giuseppe Lanza, Duca di Camastra , il permesso di
+               edificare un nuovo palazzo sul terrapieno delle mura cinquecentesche di Carlo V.
+               I lavori di costruzione durarono più di un secolo e vi parteciparono i più grandi
+               architetti catanesi dell’epoca: Alonzo di Benedetto, Girolamo Palazzotto,
+               Francesco Battaglia. Fu realizzato il più sontuoso palazzo privato di Catania.
+               La bellezza degli intagli e delle sculture non era solo frutto di gusto e di stile ma
+               rifletteva la capacità tecnica e artistica delle maestranze catanesi: la bravura degli
+               intagliatori e decoratori conferiva alle opere notevole pregio artistico.
+        </item>
+
+        <item>
+               Il Palazzo fu costruito a pianta trapezoidale, accentrato su un grande cortile dove
+               insisteva una scala centrale a tenaglia che introduceva nei ricchi saloni; raggiunse
+               il massimo splendore nel 1700 sotto Ignazio V Principe di Biscari, grande viaggiatore
+               ed appassionato di letteratura, d’arte, architettura e letteratura. Il Principe
+               partecipò personalmente alla progettazione di nuove ale del Palazzo fornendo originali
+               soluzioni costruttive.
+        </item>
+
+        <item>
+               Il Castello Ursino faceva parte di quella rete di fortificazioni lungo le coste
+               dell’Italia meridionale e della Sicilia, voluta da Federico di Svevia, per un piano
+               di edilizia militare; fu lo stesso Imperatore a scegliere il luogo di edificazione.
+               Era circondato per tre lati dal mare e difeso da un poderoso muraglione. Dal XVI secolo,
+               con l’introduzione della polvere da sparo, il castello vide sempre più indebolito il
+               suo ruolo militare, diventando prigione. Fu investito e danneggiato dall’eruzione
+               del 1669 ; la lava arrivò attorno al castello e, pur non intaccandone le strutture,
+               colmò il fossato, coprì i bastioni e spostò per alcune centinaia di metri anche la
+               linea di costa. Il terremoto del 1693 provocò una serie di danni alle strutture,
+               compromettendo definitivamente il ruolo militare del castello. Negli anni 30’ del
+               Novecento fu oggetto di un radicale restauro in vista della sua trasformazione in museo.
+        </item>
+
+        <item>
+               Fa parte della cinta muraria cinquecentesca e si trova nella zona sud-ovest del centro
+               storico di Catania; collegava il Castello Ursino e la Porta di Carlo V. Le mura in
+               questo tratto costeggiavano i ruderi di antiche fabbriche che prendevano il nome di
+               “Muro rotto”. Nel Medioevo questa parte della città era la sede della Judecca Suttana,
+               il quartiere ebraico, ed era piuttosto ricca di attività commerciali. Nel 1621 don
+               Francesco Lanario, soprintendente generale alle fortificazioni, nell’ambito di un
+               generale restauro dell’assetto difensivo della città restaurò anche la zona della fonte.
+               Le acque di Gammazita furono così imbrigliate e congiunte a quelle dell’Amenano.
+               Nel 1669, a seguito dell’eruzione, la lava circondò il Castello Ursino, colmandone il
+               fossato, e invase tutta l’area del quartiere ricoprendo anche le sorgenti, fra cui
+               quella di Gammazita.
+        </item>
+    </string-array>
+
+
+
+
+    <string-array name="Longitudine">
+        <item>10.994578</item>
+        <item>15.088668</item>
+        <item>15.079648</item>
+        <item>15.076865</item>
+        <item>15.085383</item>
+        <item>15.075503</item>
+        <item>15.084184</item>
+        <item>15.087162</item>
+        <item>15.087162</item>
+        <item>15.083030</item>
+        <item>15.048808</item>
+        <item>15.093060</item>
+        <item>15.048808</item>
+        <item>15.080982</item>
+        <item>15.048808</item>
+        <item>         </item> //porta del sale
+        <item>37.519501</item>
+        <item>15.048808</item>
+        <item>15.079617</item>
+        <item>15.091208</item>
+        <item>15.087217</item>
+        <item>15.088147</item>
+        <item>15.090649</item>
+        <item>         </item> //Palazzo Biscari
+        <item>15.084443</item>
+        <item>15.084527</item>
+    </string-array>
+
+
+
+    <string-array name="Latitudine">
+        <item>45.448031</item>
+        <item>37.506129</item>
+        <item>37.507283</item>
+        <item>37.501262</item>
+        <item>37.499652</item>
+        <item>37.503720</item>
+        <item>37.507182</item>
+        <item>37.501517</item>
+        <item>37.501517</item>
+        <item>37.507877</item>
+        <item>37.471812</item>
+        <item>37.502410</item>
+        <item>37.471812</item>
+        <item>37.505991</item>
+        <item>37.471812</item>
+        <item>         </item> //porta del sale
+        <item>15.077442</item>
+        <item>37.471812</item>
+        <item>37.514004</item>
+        <item>37.521081</item>
+        <item>37.502117</item>
+        <item>37.501950</item>
+        <item>37.502366</item>
+        <item>         </item> //Palazzo Biscari
+        <item>37.498990</item>
+        <item>37.500160</item>
+    </string-array>
 
 </resources>
