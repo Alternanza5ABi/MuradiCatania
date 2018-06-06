@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <ImageView
         android:layout_width="fill_parent"
         android:layout_height="200dp"
         android:adjustViewBounds="true"
-        android:src="@drawable/ic_launcher_background"
-        android:scaleType="fitXY" />
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_launcher_background" />
 
 
     <TableLayout
@@ -26,23 +25,21 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:padding="5dp" >
+            android:padding="5dp">
 
             <ImageButton
-                android:id="@+id/ib_index_monuments"
+                android:id="@+id/ib_home_monuments"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@mipmap/ic_launcher"
-                android:backgroundTint="@color/home_bg"
-                />
+                android:backgroundTint="@android:color/transparent"
+                android:src="@mipmap/ic_launcher" />
 
             <ImageButton
-                android:id="@+id/ib_index_map"
+                android:id="@+id/ib_home_map"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@mipmap/ic_launcher"
-                android:backgroundTint="@color/home_bg"
-                />
+                android:backgroundTint="@android:color/transparent"
+                android:src="@mipmap/ic_launcher" />
         </TableRow>
 
         <TableRow
@@ -53,25 +50,25 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:gravity="center_horizontal"
                 android:text="@string/home_monuments"
-                android:textColor="@color/home_txt_column"
                 android:textAlignment="center"
-                android:textSize="16sp"
-                android:gravity="center_horizontal" />
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/home_txt_column"
+                android:textSize="16sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:gravity="center_horizontal"
                 android:text="@string/home_map"
-                android:textColor="@color/home_txt_column"
                 android:textAlignment="center"
-                android:textSize="16sp"
-                android:gravity="center_horizontal" />
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/home_txt_column"
+                android:textSize="16sp" />
 
         </TableRow>
 
     </TableLayout>
-    
+
 </LinearLayout>
