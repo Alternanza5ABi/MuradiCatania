@@ -2,11 +2,11 @@ package com.example.alternanza.muradicatania;
 
 public class Monument
 {
-    String nome;
-    String descrizione;
-    String latitudine;
-    String longitudine;
-    int immagine;
+    private String nome;
+    private String descrizione;
+    private String latitudine;
+    private String longitudine;
+    private int immagine;
 
     public Monument(String nome, String descrizione, String latitudine, String longitudine, int immagine)
     {
@@ -17,52 +17,23 @@ public class Monument
         this.immagine = immagine;
     }
 
-    public String getNome()
-    {
+    public String getNome() {
         return nome;
     }
 
-    public void setNome(String nome)
-    {
-        this.nome = nome;
-    }
-
-    public String getDescrizione()
-    {
+    public String getDescrizione() {
         return descrizione;
     }
 
-    public void setDescrizione(String descrizione)
-    {
-        this.descrizione = descrizione;
-    }
-
-    public String getLatitudine()
-    {
+    public String getLatitudine() {
         return latitudine;
     }
 
-    public void setLatitudine(String latitudine)
-    {
-        this.latitudine = latitudine;
-    }
-
-    public String getLongitudine()
-    {
+    public String getLongitudine() {
         return longitudine;
     }
 
-    public void setLongitudine(String longitudine)
-    {
-        this.longitudine = longitudine;
-    }
-
-    public int getImmagine()
-    {
+    public int getImmagine() {
         return immagine;
-    }
-
-    public void setImmagine(int immagine) {
-        this.immagine = immagine;
     }
 }

@@ -38,10 +38,6 @@
     </string-array>
 
 
-
-
-
-
     <string-array name="descriptions">
         <item>
                Uno dei più piccoli baluardi cinquecenteschi di Catania, il Bastione venne dedicato
@@ -275,9 +271,7 @@
     </string-array>
 
 
-
-
-    <string-array name="Longitude" translatable="false" >
+    <string-array name="Longitude" translatable="false">
         <item>10.994578</item>
         <item>15.088668</item>
         <item>15.079648</item>
@@ -293,7 +287,8 @@
         <item>15.048808</item>
         <item>15.080982</item>
         <item>15.048808</item>
-        <item>         </item> //porta del sale
+        <item>         </item>
+        //porta del sale
         <item>37.519501</item>
         <item>15.048808</item>
         <item>15.079617</item>
@@ -301,11 +296,11 @@
         <item>15.087217</item>
         <item>15.088147</item>
         <item>15.090649</item>
-        <item>26.37    </item> //Palazzo Biscari
+        <item>26.37    </item>
+        //Palazzo Biscari
         <item>15.084443</item>
         <item>15.084527</item>
     </string-array>
-
 
 
     <string-array name="Latitude" translatable="false">
@@ -324,7 +319,8 @@
         <item>37.471812</item>
         <item>37.505991</item>
         <item>37.471812</item>
-        <item>         </item> //porta del sale
+        <item>         </item>
+        //porta del sale
         <item>15.077442</item>
         <item>37.471812</item>
         <item>37.514004</item>
@@ -332,9 +328,12 @@
         <item>37.502117</item>
         <item>37.501950</item>
         <item>37.502366</item>
-        <item>08.54    </item> //Palazzo Biscari
+        <item>08.54    </item>
+        //Palazzo Biscari
         <item>37.498990</item>
         <item>37.500160</item>
     </string-array>
+
+    <string name="title_activity_maps">Map</string>
 
 </resources>

@@ -12,7 +12,7 @@
         android:layout_height="200dp"
         android:adjustViewBounds="true"
         android:scaleType="fitXY"
-        android:src="@drawable/ic_launcher_background" />
+        android:src="@drawable/homebg" />
 
 
     <TableLayout
@@ -32,14 +32,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:backgroundTint="@android:color/transparent"
-                android:src="@mipmap/ic_launcher" />
+                android:src="@drawable/monu" />
 
             <ImageButton
                 android:id="@+id/ib_home_map"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:backgroundTint="@android:color/transparent"
-                android:src="@mipmap/ic_launcher" />
+                android:src="@drawable/map" />
         </TableRow>
 
         <TableRow

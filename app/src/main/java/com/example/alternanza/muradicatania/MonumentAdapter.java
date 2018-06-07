@@ -1,5 +1,6 @@
 package com.example.alternanza.muradicatania;
 
+import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
 import android.text.TextUtils;
 import android.view.LayoutInflater;
@@ -87,10 +88,15 @@ public class MonumentAdapter extends RecyclerView.Adapter<MonumentAdapter.ViewHo
                 {
                     case R.id.b_go_monument:
 
-                        String latd= monumentList.get( getAdapterPosition() ).latitudine;
-                        String longd= monumentList.get( getAdapterPosition() ).longitudine;
+                        Double latd = Double.parseDouble(monumentList.get( getAdapterPosition() ).getLatitudine()) ;
+                        Double longd = Double.parseDouble(monumentList.get( getAdapterPosition() ).getLongitudine()) ;
 
-                        //Codice che apre la mappa.
+                        String nome = monumentList.get(getAdapterPosition()).getNome();
+                        Intent intent = new Intent(mContext, MapsActivity.class);
+                        intent.putExtra("long", latd);
+                        intent.putExtra("lat", longd);
+                        intent.putExtra("nome", nome);
+                        mContext.startActivity(intent);
 
                     break;
 

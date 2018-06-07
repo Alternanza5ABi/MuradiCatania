@@ -26,14 +26,17 @@ public class MainActivity extends Activity implements View.OnClickListener
     @Override
     public void onClick(View v)
     {
+        Intent intent;
+
         if( v.getId() == R.id.ib_home_monuments )
         {
-            Intent intent = new Intent(this, CardListActivity.class);
+            intent= new Intent(this, CardListActivity.class);
             startActivity(intent);
         }
         else
         {
-            //
+            intent= new Intent(this, MapsActivity.class);
+            startActivity(intent);
         }
     }
 }
