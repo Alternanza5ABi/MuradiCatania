@@ -23,11 +23,9 @@ public class CardListActivity extends Activity
 
         List<Monument> monumentList= new ArrayList<>();
 
-        int numMonument = 26;
-
         int img_array[] =
                 {
-                    R.drawable.ruderi_bastione_san_giorgio, R.drawable.bastione_san_michele_palazzo_manganelli,
+                    R.drawable.bastione_san_michele_palazzo_manganelli,
                     R.drawable.bastione_degli_infetti_25, R.drawable.bastione_san_giovanni, R.drawable.bastione_santa_croce,
                     R.drawable.bastionedeltindaro, R.drawable.bastione_del_santocarcere, R.drawable.porta_carlo,
                     R.drawable.porta_decima, R.drawable.porta_saracena, R.drawable.porta_porticello,
@@ -38,22 +36,13 @@ public class CardListActivity extends Activity
                     R.drawable.palazzo_biscari, R.drawable.ursino_con_mura, R.drawable.scala_gammazita
                 };
 
-        /*
-        //SOLO PER TESTARE IN ATTESA CHE VENGA RIEMPITA L'APP CON LE IMMAGINI
-        //DA RIMUOVERE UNA VOLTA CARICATE TUTTE LE IMMAGINI E AVER SISTEMATO L'img_array SUPERIORE
-        int img_array[]= new int[numMonument];
 
-        for(int i=0; i<numMonument; i++)
-        {
-            img_array[i] = R.drawable.ic_launcher_foreground;
-        }
-        */
         String name[] = getResources().getStringArray(R.array.name);
         String desc[] = getResources().getStringArray(R.array.descriptions);
         String latd[] = getResources().getStringArray(R.array.Latitude);
         String lond[] = getResources().getStringArray(R.array.Longitude);
 
-        for(int i=0; i<numMonument; i++)
+        for(int i=0; i<name.length; i++)
         {
             monumentList.add( new Monument(name[i], desc[i], latd[i], lond[i], img_array[i])  );
         }

@@ -93,8 +93,8 @@ public class MonumentAdapter extends RecyclerView.Adapter<MonumentAdapter.ViewHo
 
                         String nome = monumentList.get(getAdapterPosition()).getNome();
                         Intent intent = new Intent(mContext, MapsActivity.class);
-                        intent.putExtra("long", latd);
-                        intent.putExtra("lat", longd);
+                        intent.putExtra("long", longd);
+                        intent.putExtra("lat", latd);
                         intent.putExtra("nome", nome);
                         mContext.startActivity(intent);
 

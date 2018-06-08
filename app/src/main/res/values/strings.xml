@@ -44,9 +44,7 @@
     <string-array name="descriptions">
 
         <item>
-            "Started in 1555 and never completed, this Bastion took its name from San Michele's Church, which was later transferred in Via Etnea during the eighteenth-century.
-            After 1693's earthquake the Bastion was exploited to create residences and was modified at the point it was unrecognizable: in fact, only a very small portion of the renaissance shoe wall remains in Via Coppola, where it remains part of an eighteenth-century building, Suca accessible only from the courtyard on the street number 43.
-            The rest of the building is a elegant noble palace of the early twentieth century, now devoid of any element that reminds its original military function."
+            "Started in 1555 and never completed, this Bastion took its name from San Michele's Church, which was later transferred in Via Etnea during the eighteenth-century.\nAfter 1693's earthquake the Bastion was exploited to create residences and was modified at the point it was unrecognizable: in fact, only a very small portion of the renaissance shoe wall remains in Via Coppola, where it remains part of an eighteenth-century building, Suca accessible only from the courtyard on the street number 43.\nThe rest of the building is a elegant noble palace of the early twentieth century, now devoid of any element that reminds its original military function."
         </item>
 
         <item>
@@ -206,15 +204,15 @@
         <item>15.048808</item>
         <item>15.080982</item>
         <item>15.048808</item>
-        <item>         </item> //porta del sale
-        <item>37.519501</item>
+        <item>         </item> //Porta del sale
+        <item>15.077442</item>
         <item>15.048808</item>
         <item>15.079617</item>
         <item>15.091208</item>
         <item>15.087217</item>
         <item>15.088147</item>
         <item>15.090649</item>
-        <item>26.37    </item> //Palazzo Biscari
+        <item>15.090361</item>
         <item>15.084443</item>
         <item>15.084527</item>
     </string-array>
@@ -236,17 +234,19 @@
         <item>37.471812</item>
         <item>37.505991</item>
         <item>37.471812</item>
-        <item>         </item> //porta del sale
-        <item>15.077442</item>
+        <item>         </item> //Porta del sale
+        <item>37.519501</item>
         <item>37.471812</item>
         <item>37.514004</item>
         <item>37.521081</item>
         <item>37.502117</item>
         <item>37.501950</item>
         <item>37.502366</item>
-        <item>08.54    </item> //Palazzo Biscari
+        <item>37.502222</item>
         <item>37.498990</item>
         <item>37.500160</item>
     </string-array>
+
+    <string name="title_activity_maps">Map</string>
 
 </resources>

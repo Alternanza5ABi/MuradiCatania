@@ -52,8 +52,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             // Aggiunge un marker nella mappa
             LatLng monumento = new LatLng(latd, longd);
             mMap.addMarker(new MarkerOptions().position(monumento).title(nome));
-            mMap.animateCamera(CameraUpdateFactory.newLatLng(monumento),4000,null);
-
+            mMap.animateCamera(CameraUpdateFactory.newLatLng(monumento),2000,null);
+            mMap.animateCamera(CameraUpdateFactory.zoomTo(17.0f));
         }
         else //Apro la mappa con tutti i punti.
         {
@@ -68,7 +68,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 {
                     LatLng point= new LatLng(Double.parseDouble(latd[i]), Double.parseDouble(logd[i]) );
                     mMap.addMarker(new MarkerOptions().position(point).title(nome[i]));
-                    mMap.moveCamera(CameraUpdateFactory.newLatLng(point));
+                    mMap.animateCamera(CameraUpdateFactory.newLatLng(point),2000,null);
+                    mMap.animateCamera(CameraUpdateFactory.zoomTo(17.0f));
                 }
             }
 
