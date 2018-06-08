@@ -27,7 +27,15 @@ public class CardListActivity extends Activity
 
         int img_array[] =
                 {
-                    
+                    R.drawable.ruderi_bastione_san_giorgio, R.drawable.bastione_san_michele_palazzo_manganelli,
+                    R.drawable.bastione_degli_infetti_25, R.drawable.bastione_san_giovanni, R.drawable.bastione_santa_croce,
+                    R.drawable.bastionedeltindaro, R.drawable.bastione_del_santocarcere, R.drawable.porta_carlo,
+                    R.drawable.porta_decima, R.drawable.porta_saracena, R.drawable.porta_porticello,
+                    R.drawable.porta_di_ferro, R.drawable.porta_del_re, R.drawable.ic_launcher_foreground, //Porta del tindaro manca
+                    R.drawable.porta_sant_orsola, R.drawable.porta_del_sale, R.drawable.porta_della_consolazione,
+                    R.drawable.porta_di_sardo, R.drawable.porta_della_lanza, R.drawable.postierla,
+                    R.drawable.fontana_dei_sette_canali, R.drawable.fonte_lanaria, R.drawable.mura_cinquecentesche_del_palazzo_biscari,
+                    R.drawable.palazzo_biscari, R.drawable.ursino_con_mura, R.drawable.scala_gammazita
                 };
 
         /*

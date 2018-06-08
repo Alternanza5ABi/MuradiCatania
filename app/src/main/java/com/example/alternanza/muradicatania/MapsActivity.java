@@ -3,6 +3,8 @@ package com.example.alternanza.muradicatania;
 import android.content.Intent;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
+import android.util.Log;
+import android.widget.Toast;
 
 import com.google.android.gms.maps.CameraUpdate;
 import com.google.android.gms.maps.CameraUpdateFactory;
@@ -68,14 +70,15 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
             for(int i=0; i<nome.length; i++)
             {
-                if( latd[i].equals("") )
+                if( !latd[i].equals("") || !latd[i].equals("") )
                 {
                     LatLng point= new LatLng(Double.parseDouble(latd[i]), Double.parseDouble(logd[i]) );
-                    mMap.addMarker( new MarkerOptions().position( point ).title(nome[i]) );
+                    mMap.addMarker(new MarkerOptions().position(point).title(nome[i]));
                     mMap.moveCamera(CameraUpdateFactory.newLatLng(point));
                 }
             }
 
         }
+
     }
 }
