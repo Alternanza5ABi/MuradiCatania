@@ -9,7 +9,6 @@
 
 
     <string-array name="name">
-        <item>Bastione San Giorgio</item>
         <item>Bastione San Michele</item>
         <item>Bastione degli infetti</item>
         <item>Bastione San Giovanni</item>
@@ -43,10 +42,6 @@
 
 
     <string-array name="descriptions">
-        <item>
-            "Il Bastione, uno dei più piccoli baluardi cinquecenteschi di Catania, venne dedicato al protettore del castellano, San Giorgio. Investito e semisommerso dalle lave del 1669, il Bastione venne messo in luce durante alcuni scavi compiuti tra la fine del Settecento e l'inizio dell'Ottocento, salvo poi essere dimenticato e sopraffatto dalle nuove fabbriche.
-            Oggi appare ancora in parte ricoperto dalle lave e preda di vandalismi di ogni sorta, trovandosi in un quartiere a rischio sociale."
-        </item>
 
         <item>
             "Iniziato nel 1555 e mai compiuto, il Bastione prendeva il nome dalla chiesa di San Michele, trasferita poi su via Etnea nel Settecento.
@@ -149,82 +144,50 @@
         </item>
 
         <item>
-               "Le mura di città presentavano diverse aperture "di servizio", dette postierle,
-               solitamente non segnalate nelle planimetrie generali in quanto accessi secondari.
-               Tuttavia, grazie ad alcune stampe firmate da Tiburzio Spannocchi a cui fu affidata la
-               supervisione delle mura in vista di una loro riformulazione e rafforzamento, si è in
-               grado di identificare con certezza almeno una di esse. Porta della Cunzaria,
-               sita presso il Bastione Grande o di San Salvatore, conduceva ad una conceria di pelli
-               che nel XVI secolo era ubicata dove oggi sorge la Dogana Portuale e che nel Settecento
-               venne adattata a lazzaretto, su uno sperone lavico a picco sul mare."
+            "Le mura di città presentavano diverse aperture 'di servizio', dette postierle, solitamente non segnalate nelle planimetrie generali in quanto accessi secondari.
+            Tuttavia, grazie ad alcune stampe firmate da Tiburzio Spannocchi a cui fu affidata la supervisione delle mura in vista di una loro riformulazione e rafforzamento, si è in grado di identificare con certezza almeno una di esse.
+            Porta della Cunzaria, sita presso il Bastione Grande o di San Salvatore, conduceva ad una conceria di pelli che nel XVI secolo era ubicata dove oggi sorge la Dogana Portuale e che nel Settecento venne adattata a lazzaretto, su uno sperone lavico a picco sul mare."
         </item>
 
         <item>
-               "Nota come fontana de’ setti canneddi, oggi si trova inserita sotto un grande arco,
-               nel fianco del Palazzo dei Chierici , ad un livello più basso del livello stradale di
-               Piazza Duomo in quanto fu costruita prima del terremoto. La fontana originaria dei 36
-               canali era collocata lungo le mura di fronte la Porta e presentava nella parte
-               sovrastante pitture che raffiguravano la storia del dio fluviale Amenano; essa venne
-               distrutta dall’eruzione del 1669."
+            "Nota come 'fontana de’ setti canneddi', oggi si trova inserita sotto un grande arco, nel fianco del Palazzo dei Chierici, ad un livello più basso del livello stradale di Piazza Duomo in quanto fu costruita prima del terremoto.
+            La fontana originaria dei 36 canali era collocata lungo le mura di fronte la Porta e presentava nella parte sovrastante pitture che raffiguravano la storia del dio fluviale Amenano; essa venne distrutta dall’eruzione del 1669."
         </item>
 
         <item>
-               "Lungo il tratto di mura che va dalla Porta di Carlo verso la marina in via Dusmet.
-               Il nome deriva dalla sua collocazione, lungo la via Lanaria in onore al governatore
-               Francesco Lanario Duca di Carpignano. La dedica a S. Agata è legata invece alla
-               tradizione secondo la quale la fontana segna il punto da dove partirono le reliquie
-               della Santa per Bisanzio per ordine del Generale Giorgio Maniace. A febbraio, festa
-               della patrona S. Agata, il simulacro della santa percorre l’antico tratto delle mura;
-               la fontana, in occasione della ricorrenza, e’ meta di pellegrinaggi dei devoti."
+            "Lungo il tratto di mura che va dalla Porta di Carlo verso la marina in via Dusmet.
+            Il nome deriva dalla sua collocazione, lungo la via Lanaria in onore al governatore Francesco Lanario Duca di Carpignano.
+            La dedica a S. Agata è legata invece alla tradizione secondo la quale la fontana segna il punto da dove partirono le reliquie della Santa per Bisanzio per ordine del Generale Giorgio Maniace.
+            A febbraio, festa della patrona S. Agata, il simulacro della santa percorre l’antico tratto delle mura; la fontana, in occasione della ricorrenza, e’ meta di pellegrinaggi dei devoti."
         </item>
 
         <item>
-               "Dopo il terremoto del 1693 il principe Ignazio Paterno Castello III, principe di Biscari,
-               ottenne dal Luogotenente Generale Giuseppe Lanza, Duca di Camastra , il permesso di
-               edificare un nuovo palazzo sul terrapieno delle mura cinquecentesche di Carlo V.
-               I lavori di costruzione durarono più di un secolo e vi parteciparono i più grandi
-               architetti catanesi dell’epoca: Alonzo di Benedetto, Girolamo Palazzotto,
-               Francesco Battaglia. Fu realizzato il più sontuoso palazzo privato di Catania.
-               La bellezza degli intagli e delle sculture non era solo frutto di gusto e di stile ma
-               rifletteva la capacità tecnica e artistica delle maestranze catanesi: la bravura degli
-               intagliatori e decoratori conferiva alle opere notevole pregio artistico."
+            "Dopo il terremoto del 1693 il principe Ignazio Paterno Castello III, principe di Biscari, ottenne dal Luogotenente Generale Giuseppe Lanza, Duca di Camastra, il permesso di edificare un nuovo palazzo sul terrapieno delle mura cinquecentesche di Carlo V.
+            I lavori di costruzione durarono più di un secolo e vi parteciparono i più grandi architetti catanesi dell’epoca: Alonzo di Benedetto, Girolamo Palazzotto, Francesco Battaglia. Fu realizzato il più sontuoso palazzo privato di Catania.
+            La bellezza degli intagli e delle sculture non era solo frutto di gusto e di stile ma rifletteva la capacità tecnica e artistica delle maestranze catanesi: la bravura degli intagliatori e decoratori conferiva alle opere notevole pregio artistico."
         </item>
 
         <item>
-               Il Palazzo fu costruito a pianta trapezoidale, accentrato su un grande cortile dove
-               insisteva una scala centrale a tenaglia che introduceva nei ricchi saloni; raggiunse
-               il massimo splendore nel 1700 sotto Ignazio V Principe di Biscari, grande viaggiatore
-               ed appassionato di letteratura, d’arte, architettura e letteratura. Il Principe
-               partecipò personalmente alla progettazione di nuove ale del Palazzo fornendo originali
-               soluzioni costruttive.
+            "Il Palazzo fu costruito a pianta trapezoidale, accentrato su un grande cortile dove insisteva una scala centrale a tenaglia che introduceva nei ricchi saloni; raggiunse il massimo splendore nel 1700 sotto Ignazio V Principe di Biscari, grande viaggiatore ed appassionato di letteratura, arte e architettura.
+            Il Principe partecipò personalmente alla progettazione di nuove ali del Palazzo fornendo soluzioni originali e costruttive."
         </item>
 
         <item>
-               Il Castello Ursino faceva parte di quella rete di fortificazioni lungo le coste
-               dell’Italia meridionale e della Sicilia, voluta da Federico di Svevia, per un piano
-               di edilizia militare; fu lo stesso Imperatore a scegliere il luogo di edificazione.
-               Era circondato per tre lati dal mare e difeso da un poderoso muraglione. Dal XVI secolo,
-               con l’introduzione della polvere da sparo, il castello vide sempre più indebolito il
-               suo ruolo militare, diventando prigione. Fu investito e danneggiato dall’eruzione
-               del 1669 ; la lava arrivò attorno al castello e, pur non intaccandone le strutture,
-               colmò il fossato, coprì i bastioni e spostò per alcune centinaia di metri anche la
-               linea di costa. Il terremoto del 1693 provocò una serie di danni alle strutture,
-               compromettendo definitivamente il ruolo militare del castello. Negli anni 30’ del
-               Novecento fu oggetto di un radicale restauro in vista della sua trasformazione in museo.
+            "Il Castello Ursino faceva parte di quella rete di fortificazioni lungo le coste dell’Italia meridionale e della Sicilia, voluta da Federico di Svevia, per un piano di edilizia militare; fu lo stesso Imperatore a scegliere il luogo di edificazione.
+            Era circondato per tre lati dal mare e difeso da un poderoso muraglione.
+            Dal XVI secolo, con l’introduzione della polvere da sparo, il castello vide sempre più indebolito il suo ruolo militare, diventando prigione.
+            Fu investito e danneggiato dall’eruzione del 1669; la lava arrivò attorno al castello e, pur non intaccandone le strutture, colmò il fossato, coprì i bastioni e spostò per alcune centinaia di metri anche la linea di costa.
+            Il terremoto del 1693 provocò una serie di danni alle strutture, compromettendo definitivamente il ruolo militare del castello.
+            Negli anni 30’ del novecento fu oggetto di un radicale restauro in vista della sua trasformazione in museo."
         </item>
 
         <item>
-               Fa parte della cinta muraria cinquecentesca e si trova nella zona sud-ovest del centro
-               storico di Catania; collegava il Castello Ursino e la Porta di Carlo V. Le mura in
-               questo tratto costeggiavano i ruderi di antiche fabbriche che prendevano il nome di
-               “Muro rotto”. Nel Medioevo questa parte della città era la sede della Judecca Suttana,
-               il quartiere ebraico, ed era piuttosto ricca di attività commerciali. Nel 1621 don
-               Francesco Lanario, soprintendente generale alle fortificazioni, nell’ambito di un
-               generale restauro dell’assetto difensivo della città restaurò anche la zona della fonte.
-               Le acque di Gammazita furono così imbrigliate e congiunte a quelle dell’Amenano.
-               Nel 1669, a seguito dell’eruzione, la lava circondò il Castello Ursino, colmandone il
-               fossato, e invase tutta l’area del quartiere ricoprendo anche le sorgenti, fra cui
-               quella di Gammazita.
+            "Fa parte della cinta muraria cinquecentesca e si trova nella zona sud-ovest del centro storico di Catania; collegava il Castello Ursino e la Porta di Carlo V.
+            Le mura in questo tratto costeggiavano i ruderi di antiche fabbriche che prendevano il nome di 'Muro rotto'.
+            Nel Medioevo questa parte della città era la sede della Judecca Suttana, il quartiere ebraico, ed era piuttosto ricca di attività commerciali.
+            Nel 1621 don Francesco Lanario, soprintendente generale alle fortificazioni, nell’ambito di un generale restauro dell’assetto difensivo della città restaurò anche la zona della fonte.
+            Le acque di Gammazita furono così imbrigliate e congiunte a quelle dell’Amenano.
+            Nel 1669, a seguito dell’eruzione, la lava circondò il Castello Ursino, colmandone il fossato, e invase tutta l’area del quartiere ricoprendo anche le sorgenti, fra cui quella di Gammazita."
         </item>
     </string-array>
 
@@ -232,7 +195,6 @@
 
 
     <string-array name="Longitude" translatable="false" >
-        <item>10.994578</item>
         <item>15.088668</item>
         <item>15.079648</item>
         <item>15.076865</item>
@@ -263,7 +225,6 @@
 
 
     <string-array name="Latitude" translatable="false">
-        <item>45.448031</item>
         <item>37.506129</item>
         <item>37.507283</item>
         <item>37.501262</item>
